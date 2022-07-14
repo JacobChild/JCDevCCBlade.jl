@@ -9,6 +9,7 @@ Some unique features:
 - allows for arbitrary inflow conditions, including reversed flow, hover, etc.
 - convenience methods for common wind turbine inflow scenarios
 
+#!I made an addition on line 731 and below with that if statement
 =#
 
 module CCBlade
@@ -728,6 +729,12 @@ function nondim(T, Q, Vhub, Omega, rho, rotor, rotortype)
 
         CT = T / (rho * A * (Omega*Rp)^2)
         CP = P / (rho * A * (Omega*Rp)^3)  # note that CQ = CP
+        #FM = CT^(3.0/2)/(sqrt(2)*CP)   #This is the orginal input before the following if statement was added
+        if T < 0 #! I added this if statement! 
+            FM = 0.0 # creating drag not Thrust
+        else
+            FM = CT^(3.0/2)/(sqrt(2)*CP)
+        end
         FM = CT^(3.0/2)/(sqrt(2)*CP)
 
         return FM, CT, CP
