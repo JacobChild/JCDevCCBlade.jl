@@ -735,6 +735,7 @@ function nondim(T, Q, Vhub, Omega, rho, rotor, rotortype)
             FM = 0.0 # creating drag not Thrust
         else
             FM = CT^(3.0/2)/(sqrt(2)*CP)
+            println("am I here")
         end
         FM = CT^(3.0/2)/(sqrt(2)*CP)
 
