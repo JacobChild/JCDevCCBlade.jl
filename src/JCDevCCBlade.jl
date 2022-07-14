@@ -12,7 +12,8 @@ Some unique features:
 #!I made an addition on line 731 and below with that if statement
 =#
 
-module CCBlade
+#module CCBlade #original
+module JCDevCCBlade
 
 import FLOWMath
 
