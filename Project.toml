@@ -1,8 +1,8 @@
 name = "JCDevCCBlade"
 #uuid = "e1828068-15df-11e9-03e4-ef195ea46fa4"  #original uuid
 uuid = "1882b919-6739-4615-a2f8-153f25957618" #my uuid generated following these instructions below
-#(https://stackoverflow.com/questions/69945658/how-to-create-a-uuid-for-a-julia-package
-authors = ["Andrew Ning <aning@byu.edu>"])
+# https://stackoverflow.com/questions/69945658/how-to-create-a-uuid-for-a-julia-package
+authors = ["Andrew Ning <aning@byu.edu>"]
 version = "0.2.3"
 
 [deps]
