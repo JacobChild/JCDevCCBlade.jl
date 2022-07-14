@@ -1,0 +1,6 @@
+name = "JCDevCCBlade"
+uuid = "722117c0-21ca-4776-b8ba-bee9095f7944"
+repo = "https://github.com/JacobChild/JCDevCCBlade.jl"
+description = "My private registry"
+
+[packages]
