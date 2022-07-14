@@ -4,7 +4,7 @@
 ![](https://github.com/byuflowlab/CCBlade.jl/workflows/Run%20tests/badge.svg)
 
 **Explanation:** *I forked this to use in my own project to allow analysis of propellers over larger variable ranges without throwing errors
-See [here](https://www.juliapackages.com/p/localregistry) for how I turned it into my own package- Jacob Child*
+See [here](https://stackoverflow.com/questions/57981644/how-can-i-use-an-unregistered-package-in-julia) for how I turned it into my own package- Jacob Child*
 
 **Summary**: A blade element momentum method for propellers and turbines. 
 
